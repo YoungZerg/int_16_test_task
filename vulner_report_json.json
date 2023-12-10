@@ -1,0 +1,56 @@
+{
+    "vulnerabilities": [
+        {
+            "name": "Cross-Domain Misconfiguration",
+            "count": 98
+        },
+        {
+            "name": "Vulnerable JS Library",
+            "count": 1
+        },
+        {
+            "name": "Information Disclosure - Suspicious Comments",
+            "count": 4
+        },
+        {
+            "name": "Retrieved from Cache",
+            "count": 15
+        },
+        {
+            "name": "Content Security Policy (CSP) Header Not Set",
+            "count": 69
+        },
+        {
+            "name": "Missing Anti-clickjacking Header",
+            "count": 12
+        },
+        {
+            "name": "Session ID in URL Rewrite",
+            "count": 46
+        },
+        {
+            "name": "Cross-Domain JavaScript Source File Inclusion",
+            "count": 98
+        },
+        {
+            "name": "Private IP Disclosure",
+            "count": 1
+        },
+        {
+            "name": "Timestamp Disclosure - Unix",
+            "count": 5
+        },
+        {
+            "name": "X-Content-Type-Options Header Missing",
+            "count": 47
+        },
+        {
+            "name": "Modern Web Application",
+            "count": 50
+        },
+        {
+            "name": "Session Management Response Identified",
+            "count": 1
+        }
+    ]
+}
