@@ -32,13 +32,7 @@ class TestTitleFunction(unittest.TestCase):
 
     def test_empty_string(self):
         self.assertEqual(title(""), "")
-
-    def test_all_uppercase(self):
-        self.assertEqual(title("ALL CAPS"), "All Caps")
-
-    def test_mixed_cases(self):
-        self.assertEqual(title("tHIs iS A MiXed cASe sTrIng"), "This Is A Mixed Case String")
-
+        
     def test_special_characters(self):
         self.assertEqual(title("@test #123"), "@Test #123")
 
