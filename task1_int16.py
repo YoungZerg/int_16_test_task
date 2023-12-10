@@ -43,5 +43,4 @@ class TestTitleFunction(unittest.TestCase):
         self.assertEqual(title("@test #123"), "@Test #123")
 
 if __name__ == '__main__':
-    print(title("this !iS ;an exAmple string. some               words are uppercase, others are not!"))
-    #unittest.main()
+    unittest.main()
